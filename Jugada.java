@@ -43,4 +43,28 @@ public class Jugada{
             estado_casillas[x][y] = true; 
         }
     }
+    public boolean mina_detectada(int x, int y){
+        boolean bandera = false;
+        if(estado_casillas[x][y])
+            bandera = true;
+        return bandera;
+    }
+    public String[][] dibujarCampo(int t){
+        String[][] campo = new String[t][t];
+        for( int i = 0; i < t; i++ ){
+            for( int j = 0; j < t; j++){
+                campo[i][j] = " -";
+            }
+        }
+        return campo;
+    }
+    public void imprimirTablero(String[][] campo){
+        int dim = t.getTamanio();
+        for( int i = 0; i < dim; i++ ){
+            for( int j = 0; j < dim; j++ ){
+                System.out.print(campo[i][j]+" ");
+            }
+            System.out.println();
+        }
+    }
 }
