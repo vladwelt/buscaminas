@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=dimension_campo
+comment0.target=Jugada(int)
+comment1.params=
+comment1.target=java.lang.Boolean[][]\ inicializarEstado()
+comment2.params=nivel
+comment2.target=void\ colocarMinas(int)
+numComments=3
