@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=dimension_campo
+comment0.target=Jugada(int)
+comment1.params=
+comment1.target=java.lang.Boolean[][]\ inicializarEstado()
+comment2.params=nivel
+comment2.target=void\ colocarMinas(int)
+comment3.params=x\ y
+comment3.target=boolean\ mina_detectada(int,\ int)
+comment4.params=t
+comment4.target=java.lang.String[][]\ dibujarCampo(int)
+comment5.params=campo
+comment5.target=void\ imprimirTablero(java.lang.String[][])
+numComments=6
